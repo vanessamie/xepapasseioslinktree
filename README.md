@@ -1,10 +1,10 @@
 # LINKTREE
 
-https://vanessamie.github.io/linktree/
+https://vanessamie.github.io/linktreexepapasseios/
 
 ##
 
-## Projeto desenvolvido durante Maratona Explorer 2.0 com instrução do Mayk Brito, da Rocketseat
+## Projeto desenvolvido para Instagram da Xepa Passeios
 
 ##
 
