@@ -1,0 +1,35 @@
+/*----- FOTO -----*/
+
+.container__imagem {
+    max-width: 15rem;
+    position: relative;
+    margin: 2rem auto 0;
+}
+
+.container__imagem::before {
+    animation: spinner 5s linear infinite;
+    border: 3px solid transparent;
+    border-bottom-color: var(--ye);
+
+    border-radius: 50%;
+    border-top-color: var(--gr);
+    content: '';
+    
+    inset: -1rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.container__foto {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+
+}
+
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
